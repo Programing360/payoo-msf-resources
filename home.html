@@ -26,12 +26,12 @@
                     <!-- step-3 -->
                     <div class="divider"></div>
                     <div>
-                        <button id="add-money-btn" class="btn btn-lg">Add Money</button>
-                        <button class="btn btn-lg">Chshout</button>
+                        <button onclick="addMoney()" id="add-money-btn" class="btn btn-lg">Add Money</button>
+                        <button onclick="cashOut()" class="btn btn-lg">Chshout</button>
                     </div>
                     <div class="divider"></div>
                     <!-- Add money Form start -->
-                    <div class="hidden">
+                    <div id="home-add-money" class="hidden">
                         <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                             <form class="card-body">
                                 <div class="form-control">
@@ -59,7 +59,7 @@
                     </div>
                     <!-- add money form end -->
                     <!-- cash Out money start -->
-                    <div>
+                    <div id="home-cash-out" class="">
                         <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                             <form class="card-body">
                                 <div class="form-control">
